@@ -36,7 +36,7 @@ function State() {
             {posts.map((post) => (
               <li key={post.id} className="p-4 border border-gray-300 rounded shadow">
                 <h2 className="text-lg font-semibold">
-                  <Link href={`/post/${post.id}`}>{post.title}</Link>
+                  <Link href={`/details/${post.id}`}>{post.title}</Link>
                 </h2>
                 <p>{post.body}</p>
               </li>
