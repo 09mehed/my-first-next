@@ -9,7 +9,8 @@ async function page() {
     }
   return (
     <div>
-        <h2 className='text-3xl text-center'>Welcome to our profile</h2>
+        <h2 className='text-3xl text-center'>Welcome to our my profile</h2>
+        <h2 className='text-3xl text-center'>It is my profile</h2>
     </div>
   )
 }
