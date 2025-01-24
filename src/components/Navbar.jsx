@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { RegisterLink, LoginLink, LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import { LoginLink, LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 const Navbar = async () => {
@@ -33,11 +33,6 @@ const Navbar = async () => {
                                             Signin
                                         </button>
                                     </LoginLink>
-                                    <RegisterLink>
-                                        <button className="bg-green-500 text-white px-4 py-2 rounded">
-                                            Signup
-                                        </button>
-                                    </RegisterLink>
                                 </>
                         }
                     </ul>
