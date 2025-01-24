@@ -10,7 +10,6 @@ async function page() {
   return (
     <div>
         <h2 className='text-2xl text-center'>Welcome to my profile</h2>
-        <h3></h3>
     </div>
   )
 }
